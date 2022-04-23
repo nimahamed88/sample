@@ -1,0 +1,30 @@
+1.
+mkdir project1
+cd project1
+git init
+
+2.
+git config --local user.name "<my git user>"
+git config --local user.email "<my eamil>" 
+
+3.
+touch 2.py
+touch 3.py 
+etc
+
+4.
+git status
+
+5.
+git add . (or "add -a" to add all files)
+or 
+git add <file name> 
+
+6.
+to see the changes on this step just write 'glo' on the main rep 
+
+7.
+To see the changes of the whole rep:
+	git diff HEAD~{number of change steps}
+to see the changes of a specific file:
+	git diff HEAD~{number of change steps} <file name>
